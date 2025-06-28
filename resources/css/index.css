@@ -4,10 +4,81 @@ html {
   font-size: 16px;
 }
 
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
 /* Header Section
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
-/* Main Section
+/* About Me Section
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.about-me-container {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.text-container {
+  height: 25rem;
+  width: 100%;
+  display: flex;
+  background-color: #c3c9e1;
+  border-radius: 1.5rem;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-box {
+  display: flex;
+  max-width: 90%;
+  flex-direction: column;
+
+  small {
+    color: #475277;
+  }
+
+  p {
+    margin-top: 1rem;
+    color: #475277;
+    font-size: 2rem;
+  }
+}
+
+.buttons button {
+  width: 7rem;
+  background-color: #133abc;
+  border: none;
+  border-radius: 0.75rem;
+  color: white;
+  padding: 0.5rem 0.75rem;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.photo-container {
+  height: 25rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #da8b16;
+  border-radius: 1.5rem;
+  margin: 1rem 1rem 1rem 0;
+}
+
+.devin-photo {
+  height: auto;
+  width: 30rem;
+}
+
+/* Skills Section
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
 /* Footer Section
