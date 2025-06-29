@@ -100,15 +100,22 @@ main {
   }
 }
 
-.buttons button {
-  width: 7rem;
-  background-color: #133abc;
-  border: none;
-  border-radius: 0.75rem;
-  color: white;
-  padding: 0.5rem 0.75rem;
-  margin-top: 1rem;
-  display: inline-block;
+.buttons {
+  width: 100%;
+  display: flex;
+
+  .about-me-button {
+    width: 9rem;
+    height: 4rem;
+    background-color: #133abc;
+    border: none;
+    border-radius: 0.75rem;
+    color: white;
+    padding: 0.5rem 0.75rem;
+    display: inline-block;
+    font-size: 1.25rem;
+    margin: 1rem;
+  }
 }
 
 .photo-container {
