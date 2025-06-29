@@ -257,3 +257,42 @@ footer {
 
 /* Media Queries Section
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/* Small Screens */
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+
+  .project-image-container {
+    margin-inline: 1rem;
+  }
+
+  .card-article {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .card-data {
+    width: 14rem;
+    height: auto;
+    padding: 1rem;
+
+    .card-title {
+      font-size: 1.75rem;
+    }
+    .card-description {
+      font-size: 1rem;
+    }
+  }
+
+  .header {
+    flex-direction: column;
+
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

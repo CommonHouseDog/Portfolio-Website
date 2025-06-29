@@ -132,7 +132,7 @@ main {
   align-items: flex-end;
   background-color: #da8b16;
   border-radius: 1.5rem;
-  margin: 1rem 1rem 1rem 0;
+  margin: 1rem;
 }
 
 .devin-photo {
@@ -219,3 +219,63 @@ footer {
 
 /* Media Queries Section
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/* Small Screens */
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+
+  .header {
+    flex-direction: column;
+
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .about-me-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-box {
+    h2 {
+      font-size: 2.25rem;
+    }
+    p {
+      font-size: 1.5rem;
+    }
+    .buttons {
+      margin-top: 2rem;
+    }
+  }
+
+  .photo-container {
+    height: 20rem;
+
+    img {
+      height: auto;
+      width: auto;
+      max-height: 25rem;
+      max-width: 92%;
+    }
+  }
+
+  .skills-images-container {
+    flex-wrap: wrap;
+  }
+
+  footer {
+    margin-top: 1rem;
+  }
+}
+
+/* Medium Screens */
+@media only screen and (max-width: 1024px) {
+}
+
+/* Large Screens */
+@media only screen and (max-width: 1440px) {
+}
